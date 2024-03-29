@@ -1,0 +1,227 @@
+/* *{
+        outline: 1px solid blue;
+    } */
+
+.font-16{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.font-16-bold{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.font-18-bold{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.font-14{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.font-12{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.font-14-bold{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.font-20{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.font-20-bold{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.font-30-bold{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.font-50-bold{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.test a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.line-height a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-mobile-list a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+.test a:hover {
+    color: #D6FF38;
+    transform: scale(1.05);
+
+}
+.test{
+    transition: 0.5s;
+}
+.border-bottom{
+    border-bottom: 1px solid black ;
+}
+.border-right{
+    border-right: 1px solid black ;
+}
+
+.border{
+    border: 1px solid black ;
+}
+.bg-yeelow{
+    background: #D6FF38;
+    
+}
+.bg-black{
+    background: black;
+}
+.text-yeelow{
+    color: #D6FF38;
+}
+.text-black{
+    color: black;
+}
+.text-3B{
+    color: #3B3B3B;
+}
+.bg-white{
+    background: #FFFFFF;
+}
+.text-white{
+    color: #FFFFFF;
+}
+input:focus{
+    outline: none;
+}
+.nav-mobile{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: none;
+    z-index: 1;
+    
+}
+.nav-mobile-close{
+    font-size: 30px;
+    position: absolute;
+    top: 1rem;
+    right:1rem;
+}
+.nav-mobile-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #333;
+}
+.w-space{
+    white-space: nowrap;
+}
+.nav-input-close:checked ~ .nav-mobile {
+    display: block;
+}
+.nav-input-close{
+    display: none;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display:none;
+    animation: fadeIn linear 0.2s;
+    z-index: 1;
+}
+.nav-PC{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    transform: translateX(100%);
+    transition: transform linear 0.2s;
+    z-index: 1;
+    
+}
+.test5{
+    overflow-y: scroll ;
+}
+.nav-PC-input:checked ~ .overlay {
+    display: block;
+}
+.nav-PC-input:checked ~ .nav-PC {
+    transform: translateX(0%);
+}
+
+.nav-PC-input{
+    display: none;
+}
+
+.shirt{
+    transition: 0.5s;
+}
+.shirt:hover{
+    border: none;
+	transform: scale(1.05);
+}
+.image-done{
+    border: 1px solid #333;
+}
+table, th, td {  
+    border: 1px solid black;
+
+}
+.overflow{
+    overflow-x: scroll;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media only screen and ( max-width: 992px) {
+    .bgd-yeelow{
+        background: #D6FF38;
+    }
+    .mar-ad{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-PC{
+        width: 100%;
+    }
+    .m-width{
+        width: 100%;
+    }
+}
